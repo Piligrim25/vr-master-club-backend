@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="1.5" y="134.0">com.grokonez.jwtauthentication.model.User</node>
+    <node x="0.0" y="0.0">com.grokonez.jwtauthentication.model.Role</node>
+    <node x="141.16046298902336" y="360.38784126090627">com.grokonez.jwtauthentication.model.Order</node>
+    <node x="159.0" y="0.0">com.grokonez.jwtauthentication.model.Type</node>
+    <node x="230.875" y="134.0">com.grokonez.jwtauthentication.model.Game</node>
+    <node x="368.0" y="0.0">com.grokonez.jwtauthentication.model.Discount</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.grokonez.jwtauthentication.model.Type" target="com.grokonez.jwtauthentication.model.Game">
+      <point x="23.625" y="37.0" />
+      <point x="277.125" y="114.0" />
+      <point x="297.6607142857143" y="114.0" />
+      <point x="-26.714285714285694" y="-81.0" />
+    </edge>
+    <edge source="com.grokonez.jwtauthentication.model.User" target="com.grokonez.jwtauthentication.model.Role">
+      <point x="-34.0" y="-81.0" />
+      <point x="-34.75" y="37.0" />
+    </edge>
+    <edge source="com.grokonez.jwtauthentication.model.Game" target="com.grokonez.jwtauthentication.model.Type">
+      <point x="-80.14285714285714" y="-81.0" />
+      <point x="244.23214285714283" y="114.0" />
+      <point x="182.625" y="114.0" />
+      <point x="-70.875" y="37.0" />
+    </edge>
+    <edge source="com.grokonez.jwtauthentication.model.Order" target="com.grokonez.jwtauthentication.model.User">
+      <point x="-47.25" y="-70.0" />
+      <point x="230.375" y="316.0" />
+      <point x="103.5" y="316.0" />
+      <point x="34.0" y="81.0" />
+    </edge>
+    <edge source="com.grokonez.jwtauthentication.model.Order" target="com.grokonez.jwtauthentication.model.Game">
+      <point x="-15.75" y="-70.0" />
+      <point x="261.875" y="326.0" />
+      <point x="254.25" y="326.0" />
+      <point x="-70.125" y="81.0" />
+    </edge>
+    <edge source="com.grokonez.jwtauthentication.model.Game" target="com.grokonez.jwtauthentication.model.Order">
+      <point x="70.12500000000001" y="81.0" />
+      <point x="394.5" y="326.0" />
+      <point x="356.375" y="326.0" />
+      <point x="78.75" y="-70.0" />
+    </edge>
+    <edge source="com.grokonez.jwtauthentication.model.Discount" target="com.grokonez.jwtauthentication.model.Game">
+      <point x="38.0" y="37.0" />
+      <point x="463.0" y="114.0" />
+      <point x="404.5178571428571" y="114.0" />
+      <point x="80.14285714285712" y="-81.0" />
+    </edge>
+    <edge source="com.grokonez.jwtauthentication.model.Game" target="com.grokonez.jwtauthentication.model.Discount">
+      <point x="53.428571428571445" y="-81.0" />
+      <point x="377.80357142857144" y="104.0" />
+      <point x="425.0" y="104.0" />
+      <point x="0.0" y="37.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.834037558685446" x="285.4612959177747" y="252.76949057134817" />
+  <SelectedNodes>
+    <node>com.grokonez.jwtauthentication.model.Order</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

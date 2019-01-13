@@ -34,7 +34,7 @@ public class User{
     private Long id;
 
     @NotBlank
-    @Size(min=3, max = 50)
+    @Size(min=2, max = 50)
     private String name;
 
     @NotBlank
